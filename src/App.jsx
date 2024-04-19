@@ -4,7 +4,7 @@ import "./App.css";
 import ContactForm from "./components/ContactForm/ContactForm";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
-import { fetchContacts } from "./redux/contactsOperations";
+import { fetchContacts } from "./redux/contactsOps";
 import { selectError, selectIsLoading } from "./redux/contactsSlice";
 
 function App() {
